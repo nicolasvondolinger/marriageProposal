@@ -16,8 +16,9 @@ function teleportBox() {
   section.style.top = topPos + "px"
   count++
 
-  if (count >= 8) {
+  if (count >= 7) {
     alert('You can click on "Yes" button now, woman.')
+    count = 0;
   }
 }
 
